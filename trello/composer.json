@@ -1,0 +1,24 @@
+{
+    "name": "kanebane/trello",
+    "description": "Laravel trello package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kanebane\\Trello\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kanebane\\Trello\\CommonServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Asym Rasheed",
+            "email": "asimrasheed.skylinxtech@gmail.com"
+        }
+    ],
+    "require": {}
+}
